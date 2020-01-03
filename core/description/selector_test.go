@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/mongodb/mongo-go-driver/core/address"
-	"github.com/mongodb/mongo-go-driver/core/readpref"
-	"github.com/mongodb/mongo-go-driver/core/tag"
+	"go.mongodb.org/mongo-driver/core/address"
+	"go.mongodb.org/mongo-driver/core/readpref"
+	"go.mongodb.org/mongo-driver/core/tag"
 	"github.com/stretchr/testify/require"
 )
 

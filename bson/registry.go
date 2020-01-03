@@ -1,6 +1,6 @@
 package bson
 
-import "github.com/mongodb/mongo-go-driver/bson/bsoncodec"
+import "go.mongodb.org/mongo-driver/bson/bsoncodec"
 
 // DefaultRegistry is the default bsoncodec.Registry. It contains the default codecs and the
 // primitive codecs.

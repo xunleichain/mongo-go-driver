@@ -9,10 +9,10 @@ package topology
 import (
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/bson/bsoncodec"
-	"github.com/mongodb/mongo-go-driver/core/connection"
-	"github.com/mongodb/mongo-go-driver/core/session"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/core/connection"
+	"go.mongodb.org/mongo-driver/core/session"
 )
 
 var defaultRegistry = bson.NewRegistryBuilder().Build()

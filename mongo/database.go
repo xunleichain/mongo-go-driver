@@ -9,18 +9,18 @@ package mongo
 import (
 	"context"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/bson/bsoncodec"
-	"github.com/mongodb/mongo-go-driver/core/command"
-	"github.com/mongodb/mongo-go-driver/core/description"
-	"github.com/mongodb/mongo-go-driver/core/dispatch"
-	"github.com/mongodb/mongo-go-driver/core/readconcern"
-	"github.com/mongodb/mongo-go-driver/core/readpref"
-	"github.com/mongodb/mongo-go-driver/core/writeconcern"
-	"github.com/mongodb/mongo-go-driver/mongo/collectionopt"
-	"github.com/mongodb/mongo-go-driver/mongo/dbopt"
-	"github.com/mongodb/mongo-go-driver/mongo/listcollectionopt"
-	"github.com/mongodb/mongo-go-driver/mongo/runcmdopt"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/core/command"
+	"go.mongodb.org/mongo-driver/core/description"
+	"go.mongodb.org/mongo-driver/core/dispatch"
+	"go.mongodb.org/mongo-driver/core/readconcern"
+	"go.mongodb.org/mongo-driver/core/readpref"
+	"go.mongodb.org/mongo-driver/core/writeconcern"
+	"go.mongodb.org/mongo-driver/mongo/collectionopt"
+	"go.mongodb.org/mongo-driver/mongo/dbopt"
+	"go.mongodb.org/mongo-driver/mongo/listcollectionopt"
+	"go.mongodb.org/mongo-driver/mongo/runcmdopt"
 )
 
 // Database performs operations on a given database.

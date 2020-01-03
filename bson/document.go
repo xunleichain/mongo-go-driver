@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mongodb/mongo-go-driver/bson/elements"
+	"go.mongodb.org/mongo-driver/bson/elements"
 )
 
 // ErrInvalidReadOnlyDocument indicates that the underlying bytes of a bson.Reader are invalid.

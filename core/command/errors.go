@@ -12,8 +12,8 @@ import (
 
 	"strings"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/core/result"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/core/result"
 )
 
 var (

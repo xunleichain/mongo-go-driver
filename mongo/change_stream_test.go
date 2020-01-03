@@ -15,9 +15,9 @@ import (
 	"strings"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/core/command"
-	"github.com/mongodb/mongo-go-driver/core/option"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/core/command"
+	"go.mongodb.org/mongo-driver/core/option"
 	"github.com/stretchr/testify/require"
 )
 

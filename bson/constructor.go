@@ -13,10 +13,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsoncore"
-	"github.com/mongodb/mongo-go-driver/bson/decimal"
-	"github.com/mongodb/mongo-go-driver/bson/elements"
-	"github.com/mongodb/mongo-go-driver/bson/objectid"
+	"go.mongodb.org/mongo-driver/bson/bsoncore"
+	"go.mongodb.org/mongo-driver/bson/decimal"
+	"go.mongodb.org/mongo-driver/bson/elements"
+	"go.mongodb.org/mongo-driver/bson/objectid"
 )
 
 // EC is a convenience variable provided for access to the ElementConstructor methods.

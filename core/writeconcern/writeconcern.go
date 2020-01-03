@@ -10,8 +10,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/bson/bsoncore"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsoncore"
 )
 
 // ErrInconsistent indicates that an inconsistent write concern was specified.

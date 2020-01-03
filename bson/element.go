@@ -14,8 +14,8 @@ import (
 	"strconv"
 
 	"github.com/go-stack/stack"
-	"github.com/mongodb/mongo-go-driver/bson/bsontype"
-	"github.com/mongodb/mongo-go-driver/bson/elements"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/elements"
 )
 
 const validateMaxDepthDefault = 2048

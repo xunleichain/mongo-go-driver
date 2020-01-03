@@ -9,10 +9,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsoncore"
-	"github.com/mongodb/mongo-go-driver/bson/bsontype"
-	"github.com/mongodb/mongo-go-driver/bson/decimal"
-	"github.com/mongodb/mongo-go-driver/bson/objectid"
+	"go.mongodb.org/mongo-driver/bson/bsoncore"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/decimal"
+	"go.mongodb.org/mongo-driver/bson/objectid"
 )
 
 func TestNewBSONValueWriter(t *testing.T) {

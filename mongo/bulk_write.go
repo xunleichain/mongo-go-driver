@@ -1,8 +1,8 @@
 package mongo
 
 import (
-	"github.com/mongodb/mongo-go-driver/core/dispatch"
-	"github.com/mongodb/mongo-go-driver/mongo/mongoopt"
+	"go.mongodb.org/mongo-driver/core/dispatch"
+	"go.mongodb.org/mongo-driver/mongo/mongoopt"
 )
 
 // WriteModel is the interface satisfied by all models for bulk writes.

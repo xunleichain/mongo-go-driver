@@ -11,7 +11,7 @@ import (
 	"log"
 
 	"github.com/kr/pretty"
-	"github.com/mongodb/mongo-go-driver/core/topology"
+	"go.mongodb.org/mongo-driver/core/topology"
 )
 
 func main() {

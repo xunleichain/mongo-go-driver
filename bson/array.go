@@ -12,7 +12,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/mongodb/mongo-go-driver/bson/elements"
+	"go.mongodb.org/mongo-driver/bson/elements"
 )
 
 // Array represents an array in BSON. The methods of this type are more

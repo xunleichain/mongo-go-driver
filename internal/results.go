@@ -9,7 +9,7 @@ package internal
 import (
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson/objectid"
+	"go.mongodb.org/mongo-driver/bson/objectid"
 )
 
 // IsMasterResult is the result of executing this

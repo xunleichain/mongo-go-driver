@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsonrw"
+	"go.mongodb.org/mongo-driver/bson/bsonrw"
 )
 
 var defaultStructCodec = &StructCodec{

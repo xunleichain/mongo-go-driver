@@ -11,9 +11,9 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsontype"
-	"github.com/mongodb/mongo-go-driver/bson/decimal"
-	"github.com/mongodb/mongo-go-driver/bson/objectid"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/decimal"
+	"go.mongodb.org/mongo-driver/bson/objectid"
 )
 
 // ElementTypeError specifies that a method to obtain a BSON value an incorrect type was called on a bson.Value.

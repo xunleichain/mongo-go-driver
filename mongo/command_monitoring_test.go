@@ -18,16 +18,16 @@ import (
 
 	"os"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/core/event"
-	"github.com/mongodb/mongo-go-driver/core/readpref"
-	"github.com/mongodb/mongo-go-driver/core/session"
-	"github.com/mongodb/mongo-go-driver/core/writeconcern"
-	"github.com/mongodb/mongo-go-driver/internal/testutil"
-	"github.com/mongodb/mongo-go-driver/internal/testutil/helpers"
-	"github.com/mongodb/mongo-go-driver/mongo/findopt"
-	"github.com/mongodb/mongo-go-driver/mongo/insertopt"
-	"github.com/mongodb/mongo-go-driver/mongo/updateopt"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/core/event"
+	"go.mongodb.org/mongo-driver/core/readpref"
+	"go.mongodb.org/mongo-driver/core/session"
+	"go.mongodb.org/mongo-driver/core/writeconcern"
+	"go.mongodb.org/mongo-driver/internal/testutil"
+	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/mongo/findopt"
+	"go.mongodb.org/mongo-driver/mongo/insertopt"
+	"go.mongodb.org/mongo-driver/mongo/updateopt"
 )
 
 const cmTestsDir = "../data/command-monitoring"

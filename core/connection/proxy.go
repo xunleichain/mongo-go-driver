@@ -6,7 +6,7 @@
 
 package connection
 
-import "github.com/mongodb/mongo-go-driver/core/wiremessage"
+import "go.mongodb.org/mongo-driver/core/wiremessage"
 
 // Proxy implements a MongoDB proxy. It will use the given pool to connect to a
 // MongoDB server and proxy the traffic between connections it is given and the

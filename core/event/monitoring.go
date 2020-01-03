@@ -10,7 +10,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 // CommandMetadata contains metadata about a command sent to the server.

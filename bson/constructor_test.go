@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsoncore"
-	"github.com/mongodb/mongo-go-driver/bson/decimal"
+	"go.mongodb.org/mongo-driver/bson/bsoncore"
+	"go.mongodb.org/mongo-driver/bson/decimal"
 	"github.com/stretchr/testify/require"
 )
 

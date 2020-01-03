@@ -13,7 +13,7 @@ import (
 	"io"
 
 	"github.com/golang/snappy"
-	"github.com/mongodb/mongo-go-driver/core/wiremessage"
+	"go.mongodb.org/mongo-driver/core/wiremessage"
 )
 
 // Compressor is the interface implemented by types that can compress and decompress wire messages. This is used

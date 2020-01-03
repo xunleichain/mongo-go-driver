@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/core/address"
+	"go.mongodb.org/mongo-driver/core/address"
 )
 
 func TestPool(t *testing.T) {

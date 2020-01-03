@@ -1,7 +1,7 @@
 package dispatch
 
 import (
-	"github.com/mongodb/mongo-go-driver/core/option"
+	"go.mongodb.org/mongo-driver/core/option"
 )
 
 // TODO: for all collations: servers < 3.5 -> error if value given. unack writes using opcodes -> error if value given

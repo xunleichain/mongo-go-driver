@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsoncodec"
-	"github.com/mongodb/mongo-go-driver/bson/bsoncore"
-	"github.com/mongodb/mongo-go-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/bson/bsoncore"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
 )
 
 func TestRawValue(t *testing.T) {

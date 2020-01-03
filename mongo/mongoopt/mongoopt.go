@@ -6,7 +6,7 @@
 
 package mongoopt
 
-import "github.com/mongodb/mongo-go-driver/core/option"
+import "go.mongodb.org/mongo-driver/core/option"
 
 // Collation allows users to specify language-specific rules for string comparison, such as
 // rules for lettercase and accent marks.

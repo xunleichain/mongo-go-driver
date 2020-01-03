@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mongodb/mongo-go-driver/bson"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 // Reply represents the OP_REPLY message of the MongoDB wire protocol.

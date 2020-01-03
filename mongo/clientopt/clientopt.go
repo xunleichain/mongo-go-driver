@@ -13,14 +13,14 @@ import (
 
 	"reflect"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsoncodec"
-	"github.com/mongodb/mongo-go-driver/core/connection"
-	"github.com/mongodb/mongo-go-driver/core/connstring"
-	"github.com/mongodb/mongo-go-driver/core/event"
-	"github.com/mongodb/mongo-go-driver/core/readconcern"
-	"github.com/mongodb/mongo-go-driver/core/readpref"
-	"github.com/mongodb/mongo-go-driver/core/topology"
-	"github.com/mongodb/mongo-go-driver/core/writeconcern"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/core/connection"
+	"go.mongodb.org/mongo-driver/core/connstring"
+	"go.mongodb.org/mongo-driver/core/event"
+	"go.mongodb.org/mongo-driver/core/readconcern"
+	"go.mongodb.org/mongo-driver/core/readpref"
+	"go.mongodb.org/mongo-driver/core/topology"
+	"go.mongodb.org/mongo-driver/core/writeconcern"
 )
 
 var clientBundle = new(ClientBundle)

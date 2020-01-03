@@ -9,9 +9,9 @@ package updateopt
 import (
 	"reflect"
 
-	"github.com/mongodb/mongo-go-driver/core/option"
-	"github.com/mongodb/mongo-go-driver/core/session"
-	"github.com/mongodb/mongo-go-driver/mongo/mongoopt"
+	"go.mongodb.org/mongo-driver/core/option"
+	"go.mongodb.org/mongo-driver/core/session"
+	"go.mongodb.org/mongo-driver/mongo/mongoopt"
 )
 
 var updateBundle = new(UpdateBundle)

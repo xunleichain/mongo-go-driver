@@ -9,8 +9,8 @@ package runcmdopt
 import (
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/core/readpref"
-	"github.com/mongodb/mongo-go-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/core/readpref"
+	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
 )
 
 var rpPrimary = readpref.Primary()

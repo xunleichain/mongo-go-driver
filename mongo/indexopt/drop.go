@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/core/option"
-	"github.com/mongodb/mongo-go-driver/core/session"
+	"go.mongodb.org/mongo-driver/core/option"
+	"go.mongodb.org/mongo-driver/core/session"
 )
 
 var dropBundle = new(DropBundle)

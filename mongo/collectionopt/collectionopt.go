@@ -9,9 +9,9 @@ package collectionopt
 import (
 	"reflect"
 
-	"github.com/mongodb/mongo-go-driver/core/readconcern"
-	"github.com/mongodb/mongo-go-driver/core/readpref"
-	"github.com/mongodb/mongo-go-driver/core/writeconcern"
+	"go.mongodb.org/mongo-driver/core/readconcern"
+	"go.mongodb.org/mongo-driver/core/readpref"
+	"go.mongodb.org/mongo-driver/core/writeconcern"
 )
 
 var collectionBundle = new(CollectionBundle)

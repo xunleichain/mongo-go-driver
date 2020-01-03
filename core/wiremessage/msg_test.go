@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/bson"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 var doc = bson.NewDocument(bson.EC.Int32("x", 5))

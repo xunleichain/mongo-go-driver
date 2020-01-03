@@ -9,7 +9,7 @@ package bulkwriteopt
 import (
 	"reflect"
 
-	"github.com/mongodb/mongo-go-driver/core/session"
+	"go.mongodb.org/mongo-driver/core/session"
 )
 
 var bulkWriteBundle = new(BulkWriteBundle)

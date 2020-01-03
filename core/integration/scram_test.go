@@ -13,12 +13,12 @@ import (
 	"context"
 	"os"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/core/connstring"
-	"github.com/mongodb/mongo-go-driver/core/description"
-	"github.com/mongodb/mongo-go-driver/core/topology"
-	"github.com/mongodb/mongo-go-driver/core/writeconcern"
-	"github.com/mongodb/mongo-go-driver/internal/testutil"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/core/connstring"
+	"go.mongodb.org/mongo-driver/core/description"
+	"go.mongodb.org/mongo-driver/core/topology"
+	"go.mongodb.org/mongo-driver/core/writeconcern"
+	"go.mongodb.org/mongo-driver/internal/testutil"
 )
 
 type scramTestCase struct {

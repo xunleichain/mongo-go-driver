@@ -11,12 +11,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/core/command"
-	"github.com/mongodb/mongo-go-driver/core/option"
-	"github.com/mongodb/mongo-go-driver/core/session"
-	"github.com/mongodb/mongo-go-driver/mongo/aggregateopt"
-	"github.com/mongodb/mongo-go-driver/mongo/changestreamopt"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/core/command"
+	"go.mongodb.org/mongo-driver/core/option"
+	"go.mongodb.org/mongo-driver/core/session"
+	"go.mongodb.org/mongo-driver/mongo/aggregateopt"
+	"go.mongodb.org/mongo-driver/mongo/changestreamopt"
 )
 
 // ErrMissingResumeToken indicates that a change stream notification from the server did not

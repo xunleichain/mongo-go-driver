@@ -9,8 +9,8 @@ package command
 import (
 	"errors"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/core/result"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/core/result"
 )
 
 // unmarshalFindAndModifyResult turns the provided bson.Reader into a findAndModify result.

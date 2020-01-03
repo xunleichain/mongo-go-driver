@@ -16,9 +16,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/core/auth"
-	"github.com/mongodb/mongo-go-driver/core/connection"
-	"github.com/mongodb/mongo-go-driver/core/connstring"
+	"go.mongodb.org/mongo-driver/core/auth"
+	"go.mongodb.org/mongo-driver/core/connection"
+	"go.mongodb.org/mongo-driver/core/connstring"
 )
 
 var host = flag.String("host", "127.0.0.1:27017", "specify the location of a running mongodb server.")

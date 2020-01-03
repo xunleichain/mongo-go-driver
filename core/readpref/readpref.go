@@ -10,7 +10,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/core/tag"
+	"go.mongodb.org/mongo-driver/core/tag"
 )
 
 var (

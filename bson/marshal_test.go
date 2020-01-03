@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
 	"github.com/stretchr/testify/require"
 )
 

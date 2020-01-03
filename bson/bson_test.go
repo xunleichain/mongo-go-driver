@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/mongodb/mongo-go-driver/bson/bsoncore"
+	"go.mongodb.org/mongo-driver/bson/bsoncore"
 )
 
 func noerr(t *testing.T, err error) {

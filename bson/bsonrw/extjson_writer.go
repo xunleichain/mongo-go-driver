@@ -13,8 +13,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/mongodb/mongo-go-driver/bson/decimal"
-	"github.com/mongodb/mongo-go-driver/bson/objectid"
+	"go.mongodb.org/mongo-driver/bson/decimal"
+	"go.mongodb.org/mongo-driver/bson/objectid"
 )
 
 var ejvwPool = sync.Pool{

@@ -10,8 +10,8 @@ package result
 import (
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/bson/objectid"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/objectid"
 )
 
 // Upsert contains the information for a single upsert.

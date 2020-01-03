@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/mongodb/mongo-go-driver/bson/bsoncodec"
-	"github.com/mongodb/mongo-go-driver/bson/bsonrw"
-	"github.com/mongodb/mongo-go-driver/bson/bsonrw/bsonrwtest"
-	"github.com/mongodb/mongo-go-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/bson/bsonrw"
+	"go.mongodb.org/mongo-driver/bson/bsonrw/bsonrwtest"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
 )
 
 func TestBasicDecode(t *testing.T) {

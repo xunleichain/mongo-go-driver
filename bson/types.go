@@ -6,7 +6,7 @@
 
 package bson
 
-import "github.com/mongodb/mongo-go-driver/bson/bsontype"
+import "go.mongodb.org/mongo-driver/bson/bsontype"
 
 // These constants uniquely refer to each BSON type.
 const (

@@ -11,9 +11,9 @@ import (
 
 	"reflect"
 
-	"github.com/mongodb/mongo-go-driver/core/option"
-	"github.com/mongodb/mongo-go-driver/internal/testutil/helpers"
-	"github.com/mongodb/mongo-go-driver/mongo/mongoopt"
+	"go.mongodb.org/mongo-driver/core/option"
+	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/mongo/mongoopt"
 )
 
 func createNestedReplaceOneBundle1(t *testing.T) *ReplaceOneBundle {

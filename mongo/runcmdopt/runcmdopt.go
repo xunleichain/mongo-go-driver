@@ -9,8 +9,8 @@ package runcmdopt
 import (
 	"reflect"
 
-	"github.com/mongodb/mongo-go-driver/core/readpref"
-	"github.com/mongodb/mongo-go-driver/core/session"
+	"go.mongodb.org/mongo-driver/core/readpref"
+	"go.mongodb.org/mongo-driver/core/session"
 )
 
 var runCmdBundle = new(RunCmdBundle)

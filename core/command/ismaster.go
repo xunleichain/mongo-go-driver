@@ -10,9 +10,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/core/result"
-	"github.com/mongodb/mongo-go-driver/core/wiremessage"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/core/result"
+	"go.mongodb.org/mongo-driver/core/wiremessage"
 )
 
 // IsMaster represents the isMaster command.

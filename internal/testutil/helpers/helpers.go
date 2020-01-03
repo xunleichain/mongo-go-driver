@@ -20,7 +20,7 @@ import (
 
 	"reflect"
 
-	"github.com/mongodb/mongo-go-driver/core/connstring"
+	"go.mongodb.org/mongo-driver/core/connstring"
 	"github.com/stretchr/testify/require"
 )
 

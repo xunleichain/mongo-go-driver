@@ -8,9 +8,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/bson/objectid"
-	"github.com/mongodb/mongo-go-driver/mongo"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/objectid"
+	"go.mongodb.org/mongo-driver/mongo"
 )
 
 // UploadBufferSize is the size in bytes of one stream batch. Chunks will be written to the db after the sum of chunk

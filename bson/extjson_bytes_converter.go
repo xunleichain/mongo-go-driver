@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson/decimal"
-	"github.com/mongodb/mongo-go-driver/bson/parser"
-	"github.com/mongodb/mongo-go-driver/bson/parser/ast"
+	"go.mongodb.org/mongo-driver/bson/decimal"
+	"go.mongodb.org/mongo-driver/bson/parser"
+	"go.mongodb.org/mongo-driver/bson/parser/ast"
 )
 
 type extJSONWriter struct {

@@ -9,7 +9,7 @@ package command
 import (
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/bson"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 func TestEndSessions(t *testing.T) {

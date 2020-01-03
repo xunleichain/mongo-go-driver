@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/mongodb/mongo-go-driver/core/address"
+	"go.mongodb.org/mongo-driver/core/address"
 )
 
 // Topology represents a description of a mongodb topology

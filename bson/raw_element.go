@@ -1,7 +1,7 @@
 package bson
 
 import (
-	"github.com/mongodb/mongo-go-driver/bson/bsoncore"
+	"go.mongodb.org/mongo-driver/bson/bsoncore"
 )
 
 // MalformedElementError represents a class of errors that RawElement methods return.

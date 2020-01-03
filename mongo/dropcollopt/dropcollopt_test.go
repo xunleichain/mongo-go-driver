@@ -11,7 +11,7 @@ import (
 
 	"reflect"
 
-	"github.com/mongodb/mongo-go-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
 )
 
 func TestDropCollOpt(t *testing.T) {

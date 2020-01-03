@@ -9,9 +9,9 @@ package builder
 import (
 	"errors"
 
-	"github.com/mongodb/mongo-go-driver/bson/decimal"
-	"github.com/mongodb/mongo-go-driver/bson/elements"
-	"github.com/mongodb/mongo-go-driver/bson/objectid"
+	"go.mongodb.org/mongo-driver/bson/decimal"
+	"go.mongodb.org/mongo-driver/bson/elements"
+	"go.mongodb.org/mongo-driver/bson/objectid"
 )
 
 // ErrTooShort indicates that the slice provided to encode into is not large enough to fit the data.
